@@ -4,7 +4,6 @@ import torch.optim as optim
 from tqdm import trange
 from model import Model
 from datasets import train_loader, val_loader, test_loader
-from visualize import visualize
 
 encoding_dim = 2
 input_dim = 28*28 # 784
@@ -68,5 +67,3 @@ print("\nTest Accuracy: {:.4f}".format(test_error))
 
 # Save the model
 torch.save(model, "Autoencoder.pt")
-
-visualize()

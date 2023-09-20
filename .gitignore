@@ -1,6 +1,5 @@
 *.pt
 *.out
 *.png
-*.sh
 mnist
 __pycache__
